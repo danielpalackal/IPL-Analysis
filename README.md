@@ -5,16 +5,14 @@ using Python, covering everything from exploratory analysis to machine
 learning predictions.
 
 ## 📁 Project Structure
-IPL-Analysis/
-├── Code Saves/
-│   ├── eda.ipynb
-│   ├── batting.ipynb
-│   ├── bowling.ipynb
-│   ├── teams.ipynb
-│   └── mlpred.ipynb
-└── dataset/
-    ├── matches.csv
-    └── deliveries.csv
+
+**01** 🔍 `eda.ipynb` — Exploratory Data Analysis  
+**02** 🏏 `batting.ipynb` — Batting Analysis  
+**03** 🎳 `bowling.ipynb` — Bowling Analysis  
+**04** 🏆 `teams.ipynb` — Teams & Seasons  
+**05** 🤖 `mlpred.ipynb` — ML Predictions  
+
+> Data lives in `dataset/` — notebooks live in `Code Saves/`
 
 ## 📊 Notebooks Overview
 
