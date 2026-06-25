@@ -1,20 +1,20 @@
-# 🏏 IPL Dataset Analysis
+# IPL Dataset Analysis
 
 A comprehensive data analysis project on the Indian Premier League (IPL) 
 using Python, covering everything from exploratory analysis to machine 
 learning predictions.
 
-## 📁 Project Structure
+## Project Structure
 
-**01** 🔍 `eda.ipynb` — Exploratory Data Analysis  
-**02** 🏏 `batting.ipynb` — Batting Analysis  
-**03** 🎳 `bowling.ipynb` — Bowling Analysis  
-**04** 🏆 `teams.ipynb` — Teams & Seasons  
-**05** 🤖 `mlpred.ipynb` — ML Predictions  
+**01** `eda.ipynb` — Exploratory Data Analysis  
+**02** `batting.ipynb` — Batting Analysis  
+**03** `bowling.ipynb` — Bowling Analysis  
+**04** `teams.ipynb` — Teams & Seasons  
+**05** `mlpred.ipynb` — ML Predictions  
 
-> Data lives in `dataset/` — notebooks live in `Code Saves/`
+> Data lives in `Dataset/` — notebooks live in `Notebooks/`
 
-## 📊 Notebooks Overview
+## Notebooks Overview
 
 ### 1. Exploratory Data Analysis (eda.ipynb)
 - Overview of 17 seasons of IPL data (2007-2024)
@@ -54,7 +54,7 @@ learning predictions.
 - Head to head win probability for all active team matchups
 - Last 5 seasons head to head predictions
 
-## 🔍 Key Findings
+## Key Findings
 - **Chasing teams win 52.8%** of IPL matches — a slight but consistent edge
 - **Venue is the most important factor** in predicting a match winner (38% importance)
 - **Toss has minimal impact** on match outcomes — only ~50/50
@@ -62,7 +62,7 @@ learning predictions.
 - **Gujarat Titans** have the highest all time win rate at 62.2%
 - **Wankhede Stadium** is among the most hosted IPL venues
 
-## 🛠️ Libraries Used
+## Libraries Used
 - `pandas` — data manipulation
 - `numpy` — numerical operations
 - `matplotlib` — visualisations
@@ -70,12 +70,12 @@ learning predictions.
 - `scikit-learn` — machine learning
 - `scipy` — statistical analysis
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository
 2. Install dependencies: `pip3 install pandas numpy matplotlib seaborn scikit-learn scipy`
 3. Open any notebook in VS Code with the Jupyter extension
 4. Run all cells top to bottom
 
-## 📅 Dataset
+## Dataset
 - **Matches:** 1,095 matches across 17 IPL seasons (2007/08 — 2024)
 - **Deliveries:** 260,920 individual ball by ball records
